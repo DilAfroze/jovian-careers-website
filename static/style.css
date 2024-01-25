@@ -1,45 +1,27 @@
-.container{
-	display: block;
-	width: 70vw;
-	margin: 0 auto;
-}
-h1{
-	font-size: 40px;
-	font-family: Roboto;
-	font-weight: bold;
-	color: rgb(50,50,50);
-	text-align: center;
-}
-img{
+.img_mine{
 	width: 100%;
 	height: 50vh;
 	object-fit: cover;
-	margin-left: 0;
-	margin-right: 0;
 }
-h2{
-	font-family: Roboto;
-	font-size: 32px;
-	color: rgb(100,100,100);
-	text-align: center;
+
+.job-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-.center_text{
-	font-family: Roboto;
-	font-size: 20px;
+.job-info{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 0 3rem;
 }
-.bottom_container{
-	text-align: center;
+.apply-button{
+	padding: 0 3rem;
+	width: 10rem;
+	height: 4rem;
+	margin: auto 0;
 }
-.to_do{
-	font-family: Roboto;
-	font-size: 32px;
-	color: rgb(100,100,100);
-}
-footer{
-	text-align: center;
-}
-.footer_text{
-	font-family: Roboto;
-	font-size: 16px;
-	color: rgb(100,100,100);
+.contact-button{
+	display: block;
+	margin: auto 0;
 }
